@@ -1,0 +1,23 @@
+
+// document.getElementById("delete-button").addEventListener("click", function (event) {
+//     event.preventDefault();
+    
+//     let index = document.getElementById("task-form").dataset.index;
+
+//     if (index === undefined || index === "" || isNaN(index)) {
+//         alert("No task selected for deletion.");
+//         return;
+//     }
+
+//     let tasks = JSON.parse(localStorage.getItem("items")) || [];
+
+//     tasks.splice(index, 1); // Remove the task at the specified index
+
+//     localStorage.setItem("items", JSON.stringify(tasks)); // Save the updated list
+
+//     // Hide and reset the form
+//     document.getElementById("task-form-container").classList.add("hidden");
+//     document.getElementById("task-form").reset();
+
+//     displayTasks(); // Refresh the task list
+// });

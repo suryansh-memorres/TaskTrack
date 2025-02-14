@@ -63,6 +63,7 @@ h1 {
   .btn:hover .text {
     transition: all 0.5s;
     opacity: 0;
+    cursor: pointer;
   }
   
   .btn:focus {
@@ -254,11 +255,13 @@ li {
     margin-left: auto;
 }
 
-/* .deletion:hover, .save-design:hover, .cancel-des:hover {
-    transform: translateY(-3px);
-} */
+ .deletion:hover, .save-design:hover, .cancel-des:hover {
+    /* transform: translateY(-3px); */
+    cursor: pointer;
+} 
 
 .deletion:active, .save-design:active, .cancel-des:active {
     transform: translateY(5px);
     box-shadow: 0 5px #666;
+    cursor: pointer;
 }
